@@ -1,0 +1,34 @@
+/* Header */
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../assets/fonts/Inter-Regular.woff2?v=3.19") format("woff2"),
+        url("../assets/fonts/Inter-Regular.woff?v=3.19") format("woff");
+}
+
+
+/* Main */
+
+@font-face {
+    font-family: 'Hubballi';
+    src: url('../assets/fonts/Hubballi-Regular.eot');
+    src: local('Hubballi Regular'), local('Hubballi-Regular'),
+        url('../assets/fonts/Hubballi-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Hubballi-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Hubballi-Regular.woff') format('woff'),
+        url('../assets/fonts/Hubballi-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Footer */
+
+@font-face {
+    font-family: 'Alike Angular';
+    src: url('../assets/fonts/AlikeAngular-Regular.woff2') format('woff2'),
+        url('../assets/fonts/AlikeAngular-Regular.woff') format('woff');
+}

@@ -74,6 +74,9 @@ nav ul li a {
     cursor: pointer;
 }
 
+.icon img{
+    height: 40px;
+width:40px;}
 /* Main */
 
 main {

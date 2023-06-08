@@ -7,6 +7,8 @@
     padding: 20px;
     background-color: #D6D7D2;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Hubballi';
 }
 
 .card-content {
@@ -81,8 +83,9 @@ main {
 footer {
     /* background-color: #333;
     color: #fff; */
-    padding: 20px;
+    padding: 5px;
     height: 200px;
+    font-size: larger;
 }
 
 .container {
@@ -125,4 +128,13 @@ footer {
 
 .ft {
     font-weight: bold;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
 }

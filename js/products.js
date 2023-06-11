@@ -9,10 +9,11 @@ let product = products.find(function (p) {
     return p.id === productId;
 });
 
+
 if (product) {
     let productNameDiv = document.getElementById("productName");
     let productHTML = `
-      <p class='productName'>${product.name}</p>
+      <p id="product-name" class='productName'>${product.name}</p>
     `;
     productNameDiv.innerHTML = productHTML;
 
@@ -20,25 +21,27 @@ if (product) {
     let detailsHTML = product.details;
     productDetailsDiv.innerHTML = detailsHTML;
 
-    let productImageDiv = document.getElementById("productImage");
+    let productImageFormDiv = document.getElementById("productImageForm");
     let imageHTML = `
     <img id='product-image' src="${product.image}"
     alt="${product.name}">
-    <form class="quantity">
-                    <input class="qLabel" type="number" id="qNumber" min="1" max="100" name="qnumber"
-                        placeholder="Quantity">
-                    <button class="addToCart" type="submit">
-                        <p>Add To Cart</p>
-                    </button>
-
-                </form>
+    <form class="quantity"><div>
+    <h2>Price: $<span id="product-price">${product.price}</span></h2></div>
+    <input class="qLabel" type="number" id="product-quantity" min="1" max="100"
+    placeholder="Quantity">
+    <button class="addToCart" id="add-to-cart">
+        <p>Add To Cart</p>
+    </button>
+    </form>
     `
-    productImageDiv.innerHTML = imageHTML;
+    productImageFormDiv.innerHTML = imageHTML;
+
+   
 } else {
     // Handle case when product is not found
-    let productNameDiv = document.getElementById("productName");
+    let productNameDiv = document.getElementById("productImageForm");
     let productHTML = `
-      <p class='productName'>Product not found</p>
+      <h1 class='productName'>Product not found</h1>
     `;
     productNameDiv.innerHTML = productHTML;
 }
@@ -59,3 +62,4 @@ if (product) {
     productName.textContent = 'Product not found';
     productNameDiv.appendChild(productName);
 }*/
+

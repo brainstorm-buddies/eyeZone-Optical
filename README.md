@@ -14,7 +14,14 @@
 
 ## Updates
 
-- (06/06/2023) : initial deploy
+### Version 1.1
+- Updated website's html files
+- Updated styling for each html file.
+- Added more assets.
+
+### Version 1.0
+- Added essential files.
+- Added essential fonts/assets/styles.
 
 ## Project's description
 

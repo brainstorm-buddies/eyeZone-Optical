@@ -1,8 +1,14 @@
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@font-face {
+    font-family: 'Hubballi';
+    src: url('../assets/fonts/Hubballi-Regular.eot');
+    src: local('Hubballi Regular'), local('Hubballi-Regular'),
+        url('../assets/fonts/Hubballi-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Hubballi-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Hubballi-Regular.woff') format('woff'),
+        url('../assets/fonts/Hubballi-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 header {
@@ -13,6 +19,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .logo {
@@ -29,7 +37,6 @@ header {
 }
 
 nav {
-
     position: relative;
 }
 
@@ -67,40 +74,36 @@ nav ul li a {
 
 body {
     background-color: white;
+    font-family: 'Hubballi', sans-serif;
 }
 
 .cont1 {
     margin-left: 50px;
     margin-top: 80px;
-    ;
     display: flex;
-    align-items: inline;
+    align-items: center;
     justify-content: space-between;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
     width: 90%;
-    height: 70%
+    height: 70%;
 }
 
 .cont2 {
-    margin-left: 0px;
+    margin-left: 0;
     margin-right: 70px;
     width: 60%;
     padding: 50px;
-
 }
 
 .prductInfo {
     margin-top: 70px;
     margin-left: 100px;
-
     transition: 0.3s;
     width: 60%;
     padding: 12px 12px;
     height: 25%;
     font-size: 20px;
     padding-bottom: 40px;
-
-
 }
 
 .prductInfo:hover {
@@ -109,22 +112,20 @@ body {
 }
 
 .cont2 img {
-    margin-left: 0px;
+    margin-left: 0;
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0.1, 0.1);
-
 }
 
 .quantity {
     display: flex;
-    align-items: inline;
+    align-items: center;
     margin-top: 40px;
     padding-top: 40px;
     font-size: 15px;
     margin-left: 50px;
-
 }
 
 .addToCart {
@@ -140,31 +141,29 @@ body {
 
 .qLabel {
     padding: 12px;
-    ;
     font-size: 16px;
     color: #526D82;
     border-radius: 20px;
+}
 
-
+.slider-container {
+    display: flex;
+    overflow: hidden;
 }
 
 .cardSP {
     margin-top: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width: 100px;
+    width: 90px;
     margin-right: 10px;
-    padding: 30px;
+    padding: 20px;
     margin-bottom: 30px;
-
 }
 
-.cardSP,
-img {
+.cardSP img {
     width: 150px;
-
     align-self: center;
-
 }
 
 .cardSP:hover {
@@ -172,34 +171,143 @@ img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* .prev-arrow,
+.next-arrow {
+  display: flex;
+  : center;
+  width: 50px;
+  height: 50px;
+
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.4s;
+  padding: 20 px;
+   
+
+}
+.prev-arrow:hover,
+.next-arrow:hover {
+  opacity: 0.9;
+}
+
+.prev-arrow i,
+.next-arrow i {
+  color: ##526D82;
+  font-size: 25px;
+  
+ 
+} */
+
+
+
+
+.slider-controls .next-arrow  {
+    margin-left:40px;
+   display: relative;
+  width: 2px;
+  height: 2px;
+    transform: translate(-50%, -50%);
+    transform: rotate( 270deg);
+    cursor: pointer;
+
+    
+}
+
+.next-arrow  span {
+   
+   display: block;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-bottom: 3px solid black;
+    border-right: 3px solid #526D82;
+    transform: rotate(170 deg);
+    margin: -10px;
+    animation: animate 3s infinite;
+   
+}
+
+.next-arrow span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.next-arrow span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+
+
+
+.slider-controls .prev-arrow  {
+
+   display: relative;
+  width: 5px;
+  height: 5;
+    transform: translate(-50%, -50%);
+    transform: rotate(90deg);
+    cursor: pointer;
+     margin-right:100px;
+}
+
+.prev-arrow  span {
+   
+   display: block;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-bottom: 3px solid #526D82;
+    border-right: 3px solid black;
+    transform: rotate(45deg);
+    margin: -12px;
+    animation: animate 3s infinite;
+
+}
+
+.prev-arrow span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.prev-arrow span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50% {
+        opacity: 2;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(10px, 5px);
+    }
+}
+
+.slider-controls {
+    width:50px;
+}
+
+
+
 .cont3 {
     text-align: center;
-
-
     padding: 4px 4px;
 }
 
 .similerProduct {
     margin-top: 10px;
-    margin-left: 250px;
-    margin-right: 250px;
+   
     margin-bottom: 50px;
     display: flex;
-    align-items: inline;
-
+    align-items: center;
     justify-content: center;
-
-
+    
 }
 
 .productName {
     margin: 40px;
     display: center;
-
-    font-size: 40px;
-
-
-
+    font-size: 50px;
 }
 
 .productName:hover {
@@ -216,15 +324,11 @@ img {
     margin-top: 20px;
     display: block;
     justify-content: right;
-
-
-
 }
 
 .navPages a {
     color: black;
     font-size: 15px;
-
 }
 
 .section2 {
@@ -242,18 +346,13 @@ footer {
     color: #DDE6ED;
     padding: 10px;
     text-align: center;
-
     font-family: 'Alike Angular';
-    src: url('../assets/fonts/AlikeAngular-Regular.woff2') format('woff2'),
-        url('../assets/fonts/AlikeAngular-Regular.woff') format('woff');
 }
 
 .section2 .spText {
-
     display: center;
     text-align: center;
     font-size: 50px;
-
 }
 
 .container {

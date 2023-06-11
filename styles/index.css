@@ -16,71 +16,71 @@ body {
 
 /* Header */
 
-
-header {
-    font-family: 'Inter', sans-serif;
-    /* background-color: #f0f0f0; */
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: transparent;
-    position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(39, 55, 77, 0.5); /* Transparent black */
-
-}
-
-.logo {
-    height: 30px;
-    width: 30px;
-    display: flex;
-    align-items: center;
-    color: #27374D;
-}
-
-.logo img {
-    height: 80px;
-    width: auto;
-}
-
-nav {
-    position: relative;
-}
-
-nav ul {
-    list-style-type: none;
+body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin-left: 10px;
-}
-
-nav ul li:last-child {
-    margin-right: 10px;
-}
-
-nav ul li a {
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333; 
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: #fff;
-}
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: red;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
 
-.icon {
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-    cursor: pointer;
-}
 
-.icon img{
-    height: 40px;
-width:40px;}
+
 /* Main */
 
 main {

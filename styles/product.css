@@ -11,6 +11,12 @@
     font-display: swap;
 }
 
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
 header {
     font-family: 'Inter', sans-serif;
     background-color: #27374D;
@@ -22,7 +28,6 @@ header {
     font-style: normal;
     font-weight: 400;
 }
-
 .logo {
     height: 30px;
     width: 30px;
@@ -30,53 +35,43 @@ header {
     align-items: center;
     color: #fff;
 }
-
 .logo img {
     height: 80px;
     width: auto;
 }
-
 nav {
     position: relative;
 }
-
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
-
 nav ul li {
     margin-left: 10px;
 }
-
 nav ul li:last-child {
     margin-right: 10px;
 }
-
 nav ul li a {
     text-decoration: none;
     color: #fff;
 }
-
 .icon {
     display: flex;
     align-items: center;
     margin-left: 10px;
     cursor: pointer;
 }
-
 .icon img {
     height: 40px;
     width: 40px;
 }
-
 body {
     background-color: white;
     font-family: 'Hubballi', sans-serif;
 }
-
 .cont1 {
     margin-left: 50px;
     margin-top: 80px;
@@ -87,14 +82,12 @@ body {
     width: 90%;
     height: 70%;
 }
-
 .cont2 {
     margin-left: 0;
     margin-right: 70px;
     width: 60%;
     padding: 50px;
 }
-
 .prductInfo {
     margin-top: 70px;
     margin-left: 100px;
@@ -105,12 +98,10 @@ body {
     font-size: 20px;
     padding-bottom: 40px;
 }
-
 .prductInfo:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
 }
-
 .cont2 img {
     margin-left: 0;
     width: 100%;
@@ -118,7 +109,6 @@ body {
     margin-bottom: 20px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0.1, 0.1);
 }
-
 .quantity {
     display: flex;
     align-items: center;
@@ -127,7 +117,6 @@ body {
     font-size: 15px;
     margin-left: 50px;
 }
-
 .addToCart {
     text-decoration: none;
     background-color: #526D82;
@@ -138,20 +127,16 @@ body {
     font-size: 16px;
     margin-left: 5px;
 }
-
 .qLabel {
     padding: 12px;
     font-size: 16px;
     color: #526D82;
     border-radius: 20px;
-    background-color: #;
 }
-
 .slider-container {
     display: flex;
     overflow: hidden;
 }
-
 .cardSP {
     margin-top: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -161,47 +146,37 @@ body {
     padding: 20px;
     margin-bottom: 30px;
 }
-
 .cardSP img {
     width: 150px;
     align-self: center;
 }
-
 .cardSP:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 /* .prev-arrow,
 .next-arrow {
   display: flex;
   : center;
   width: 50px;
   height: 50px;
-
   opacity: 0.5;
   cursor: pointer;
   transition: opacity 0.4s;
   padding: 20 px;
-   
-
+  
 }
 .prev-arrow:hover,
 .next-arrow:hover {
   opacity: 0.9;
 }
-
 .prev-arrow i,
 .next-arrow i {
   color: ##526D82;
   font-size: 25px;
-  
  
+
 } */
-
-
-
-
 .slider-controls .next-arrow  {
     margin-left:40px;
    display: relative;
@@ -210,12 +185,8 @@ body {
     transform: translate(-50%, -50%);
     transform: rotate( 270deg);
     cursor: pointer;
-
-    
 }
-
 .next-arrow  span {
-   
    display: block;
     width: 1.5vw;
     height: 1.5vw;
@@ -224,22 +195,14 @@ body {
     transform: rotate(170 deg);
     margin: -10px;
     animation: animate 3s infinite;
-   
 }
-
 .next-arrow span:nth-child(2) {
     animation-delay: -0.2s;
 }
-
 .next-arrow span:nth-child(3) {
     animation-delay: -0.4s;
 }
-
-
-
-
 .slider-controls .prev-arrow  {
-
    display: relative;
   width: 5px;
   height: 5;
@@ -248,9 +211,7 @@ body {
     cursor: pointer;
      margin-right:100px;
 }
-
 .prev-arrow  span {
-   
    display: block;
     width: 1.5vw;
     height: 1.5vw;
@@ -259,17 +220,13 @@ body {
     transform: rotate(45deg);
     margin: -12px;
     animation: animate 3s infinite;
-
 }
-
 .prev-arrow span:nth-child(2) {
     animation-delay: -0.2s;
 }
-
 .prev-arrow span:nth-child(3) {
     animation-delay: -0.4s;
 }
-
 @keyframes animate {
     0% {
         opacity: 0;
@@ -283,64 +240,49 @@ body {
         transform: rotate(45deg) translate(10px, 5px);
     }
 }
-
 .slider-controls {
     width:50px;
 }
-
-
-
 .cont3 {
     text-align: center;
     padding: 4px 4px;
 }
-
 .similerProduct {
     margin-top: 10px;
-   
     margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
-
 .productName {
     margin: 40px;
     display: center;
     font-size: 50px;
 }
-
 .productName:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.0);
 }
-
 .cont1:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 .navPages {
     margin-top: 20px;
     display: block;
     justify-content: right;
 }
-
 .navPages a {
     color: black;
     font-size: 15px;
 }
-
 .section2 {
     margin-top: 100px;
 }
-
 .section2 p {
     margin-left: 20px;
     font-size: 30px;
 }
-
 footer {
     font-family: 'Hubballi', sans-serif;
     background-color: #526D82;
@@ -349,55 +291,44 @@ footer {
     text-align: center;
     font-family: 'Alike Angular';
 }
-
 .section2 .spText {
     display: center;
     text-align: center;
     font-size: 50px;
 }
-
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .footer-left {
     text-align: left;
 }
-
 .footer-middle {
     text-align: center;
 }
-
 .footer-right {
     text-align: right;
 }
-
 .footer-left p,
 .footer-middle p,
 .footer-right p {
     margin: 5px 0;
 }
-
 .social-media-icons img {
     width: 30px;
     margin-right: 50px;
     margin: 0 5px;
 }
-
 .social-media-icons a {
     color: #fff;
 }
-
 .social-media-icons a:hover {
     opacity: 0.8;
 }
-
 .ft {
     font-weight: bold;
 }
-
 .fa {
     padding: 20px;
     font-size: 30px;

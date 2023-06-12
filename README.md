@@ -14,6 +14,12 @@
 
 ## Updates
 
+### Version 1.5
+- Brand new desing for homepage.
+- Added javascript files.
+- Added database system using javascript.
+- Added cart / product page system.
+
 ### Version 1.1
 - Updated website's html files
 - Updated styling for each html file.
@@ -46,7 +52,7 @@ Link: [Wireframe and Design (Figma)](https://www.figma.com/file/ZWjlGNkwTYGISUsp
 
 ![](/assets/main/wireframe2.jpg)
 
-#### Product page & Cart page & Checkput page
+#### Product page & Cart page & Checkout page
 
 ![](/assets/main/wireframe3.jpg)
 
@@ -62,7 +68,7 @@ Link: [Wireframe and Design (Figma)](https://www.figma.com/file/ZWjlGNkwTYGISUsp
 
 ![](/assets/main/design2.jpg)
 
-#### Product page & Cart page & Checkput page
+#### Product page & Cart page & Checkout page
 
 ![](/assets/main/design3.jpg)
 

@@ -19,7 +19,7 @@ function calculateTotalPrice() {
 function displayTotalPrice() {
     let totalPriceElement = document.getElementById("total-price");
     let totalPrice = calculateTotalPrice();
-    totalPriceElement.textContent = "TOTAL: $" + totalPrice;
+    totalPriceElement.textContent = totalPrice;
 }
 
 displayTotalPrice();

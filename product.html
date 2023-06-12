@@ -1,195 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="eyeZone Optical 👓">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eyeZone Optical 👓</title>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tutorial</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!-- CSS -->
+    <link href="./styles/product.css" rel="stylesheet">
+    <link href="./styles/font.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/styles/product.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="robots" content="noindex,follow" />
 
-</head>
+  </head>
 
-<body>
-    <!--gucci-->
-
+  <body>
     <header>
-        <div class="logo">
-            <img src="/assets/main/logo.png" alt="Logo">
-            
+      <div class="logo">
+          <img src="/assets/main/logo.png" alt="Logo">
           
-        </div>
-        <nav>
-            <ul>
-                <li style="margin-top: 15px;"><a href="index.html">Home</a></li>
-                <li style="margin-top: 15px;"><a href="#brands">Brands</a></li>
-                <li style="margin-top: 15px;"><a href="#">About</a></li>
-                <li class="icon"><a href="cart.html"> <img src="assets/main/cart.png" /></a></li>
-                <li id="cart-items" style="margin-top: 15px;"></li>
-            </ul>
-        </nav>
-
-    </header>
-
-   <main>
-    <div class="section1"></div>
-    <center>
-        <div id="productName"></div>
-    </center>
-
-    <div class="cont1">
-        <div class="cont2">
-            <div id="productImageForm">
-
-                
-            </div>
-        </div>
-        <div id="productInfo" class="productInfo">
-
         
+      </div>
+      <nav>
+          <ul>
+              <li style="margin-top: 15px;"><a href="index.html">Home</a></li>
+              <li style="margin-top: 15px;"><a href="#brands">Brands</a></li>
+              <li style="margin-top: 15px;"><a href="#">About</a></li>
+              <li class="icon"><a href="cart.html"> <img src="assets/main/cart.png" /></a></li>
+              <li id="cart-items" style="margin-top: 15px;"></li>
+          </ul>
+      </nav>
+
+  </header>
+    <main class="container">
+
+      <!-- Left Column / Headphones Image -->
+      <div id="productImage" class="left-column">
+
+      </div>
+      <!-- <div class="left-column">
+        <img data-image="black" src="https://media.gucci.com/style/HEXF1E9FB_Center_0_0_800x800/1676331012/733583_J0740_1091_001_100_0000_Light-Specialized-fit-cat-eye-optical-frame.jpg " alt="">
+        <img data-image="blue" src="https://media.gucci.com/style/HEXF1E9FB_Center_0_0_800x800/1664578027/733380_J0740_2340_001_100_0000_Light-Aviator-frame-sunglasses.jpg " alt="">
+        <img data-image="red" class="active" src="https://media.gucci.com/style/HEXD6D7D2_Center_0_0_800x800/1530795620/520116_I0330_8070_001_100_0000_Light-Aviator-metal-sunglasses.jpg " alt="">
+      </div> -->
+
+
+      <!-- Right Column -->
+      <div class="right-column">
+
+        <!-- Product Description -->
+        <div class="product-description">
+          <div id="productName"></div>
+          <p id="productInfo"></p>
         </div>
-    </div>
 
-    <div id="similarSection" class="section2">
-        <p class="spText">Similar Product</p>
-        <div class="similerProduct"><div class="slider-controls">
-            <div class="prev-arrow">
-            <span></span>
-            <span></span>
-          
-            </div>
-          
+        <!-- Product Configuration -->
+        <div class="product-configuration">
 
-        </div>
-            <div class="slider-container">
+          <!-- Product Color -->
+          <!-- <div class="product-color">
+            <span>Color</span>
 
-                <div class="cardSP">
-                    <img src="https://media2.bulgari.com/f_auto,q_auto,c_pad,h_520,w_520/production/dwde4b6c0d/images/images/1405661.png"
-                        alt="productImage" style="width: 100px;">
-                    <div class="cont3">
-                        <b>570$</b>
-                    </div>
-                </div>
+            <div class="color-choose">
+              <div>
+                <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+                <label for="red"><span></span></label>
+              </div>
+              <div>
+                <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+                <label for="blue"><span></span></label>
+              </div>
+              <div>
+                <input data-image="black" type="radio" id="black" name="color" value="black">
+                <label for="black"><span></span></label>
+              </div>
+            </div> 
 
-                <div class="cardSP">
-                    <img src="https://media2.bulgari.com/f_auto,q_auto,c_pad,h_520,w_520/production/dwe42e1044/images/images/1435534.png"
-                        alt="productImage" style="width: 100px;">
-                    <div class="cont3">
-                        <b>510$</b>
-                    </div>
-                </div>
+          </div>-->
 
-                <div class="cardSP">
-                    <img src="https://media2.bulgari.com/f_auto,q_auto,c_pad,h_520,w_520/production/dw776a9e95/images/images/1478414.png"
-                        alt="productImage" style="width: 100px;">
-                    <div class="cont3">
-                        <b>360$</b>
-                    </div>
-                </div>
+          <!-- Cable Configuration -->
+          <div class="cable-config">
+            <!-- <span>Cable configuration</span>
 
-                <div class="cardSP">
-                    <img src="https://media2.bulgari.com/f_auto,q_auto,c_pad,h_520,w_520/production/dw7bf017cd/images/images/1405668.png"
-                        alt="productImage" style="width: 100px;">
-                    <div class="cont3">
-                        <b>450$</b>
-                    </div>
-                </div>
-            </div>
+            <div class="cable-choose">
+              <button>Straight</button>
+              <button>Coiled</button>
+              <button>Long-coiled</button>
+            </div> -->
 
-            <div class="slider-controls">
-               
-                <div class="next-arrow">
-                <span></span>
-                <span></span>
-                </div>
+            <form id="quantity" class="quantity">
               
-              
-            </div>
+              </form>
+          </div>
         </div>
-    </div>
 
-
-</main>
-
-
-
-
-    <!-- <footer>
-       
-            <div class="container ">
-                <div class="footer-left ">
-                    <p>Contact us:</p>
-                    <p> +96574852</p>
-                    <p>&#128231; eyezoneoptical@gmail.com</p>
-                </div>
-                <div class="footer-middle " style="padding-top: 40px; ">
-                    <p> &#128205; Location :</p>
-                    <p>Taj Mall
-                        second floor</p>
-                    <p style="padding-top: 46px; "> © 2023 eyeZone Optical </p>
-                </div>
-                <div class="footer-right ">
-                    <p style="margin-right: 40px; font-size: 20px; ">Follow Us:</p>
-                    <div class="social-media-icons ">
-                        <a href="https://www.facebook.com " class="fa fa-facebook "></a>
-                        <a href="https://www.youtube.com" class="fa fa-youtube"></a>
-                        <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-                    </div>
-                </div>
-            </div>
-            <p>Copyright &copy; 2023 <span class="ft">eyeZone Optical</span></p>
+        <!-- Product Pricing -->
+        <div id="productPrice" class="product-price">
+          
         </div>
-    </footer> -->
+      </div>
+
+      
+    </main>
+<div id="similar-products" style="margin-bottom: 10px;"></div>
+    
 
     <div class="footer-container">
-        <footer class="my-footer">
-          <div class="first-column">
-            <section class="section-1">
-              <div class="row-1">
-                <h6 >eyeZone Optical</h6></br>
-                <p> We are a Jordanian store </br>specialize in glasses  </br> and lenses which</br> was constructed on </br>January 2023.  </p>
-              </div>
+      <footer class="my-footer">
+        <div class="first-column">
+          <section class="section-1">
+            <div class="row-1">
+              <h6 >eyeZone Optical</h6></br>
+              <p> We are a Jordanian store </br>specialize in glasses  </br> and lenses which</br> was constructed on </br>January 2023.  </p>
             </div>
-            <div class="second-column">
-              <h6>Products</h6></br>
-              <p>
-                <a>Sunglasses</a>
-              </p></br>
-              <p>
-                <a>Eyeglasses</a>
-              </p></br>
-              <p>
-                <a>lenses</a>
-              </p></br>
-            </div>
-            <div class="third-column">
-              <h6>Contact</h6></br>
-              <p><i class= "fa fa-map-marker"></i>Taj mall , Amman,Jordan</p>
-              <p><i class="fa fa-phone"></i>+96279456123</p>
-              <p><i class="fa fa-envelope"></i><a class="email"href="mailto:support@company.com">eyezoneoptical@gmail.com</a></p>
-            </div>
-            <div class="last-column">
-              <h6>Follow Us</h6></br>
-              <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
-              <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></br>
-              <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
-              <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
-            </div>
-          </section>
-        </div>
-        <div class="copyright">
-          <p>© 2023 eyeZone Optical</p>
-        </div>
-        </footer>
-        
-    <script src="/js/slider.js"></script>
-    <script src="/js/constructor.js"></script>
-    <script src="/js/database.js"></script>
-    <script src="/js/products.js"></script>
-    <script src="/js/add-to-cart.js"></script>
-</body>
+          </div>
+          <div class="second-column">
+            <h6>Products</h6></br>
+            <p>
+              <a>Sunglasses</a>
+            </p></br>
+            <p>
+              <a>Eyeglasses</a>
+            </p></br>
+            <p>
+              <a>lenses</a>
+            </p></br>
+          </div>
+          <div class="third-column">
+            <h6>Contact</h6></br>
+            <p><i class= "fa fa-map-marker"></i>Taj mall , Amman,Jordan</p>
+            <p><i class="fa fa-phone"></i>+96279456123</p>
+            <p><i class="fa fa-envelope"></i><a class="email"href="mailto:support@company.com">eyezoneoptical@gmail.com</a></p>
+          </div>
+          <div class="last-column">
+            <h6>Follow Us</h6></br>
+            <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></br>
+            <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+          </div>
+        </section>
+      </div>
+      <div class="copyright">
+        <p>© 2023 eyeZone Optical</p>
+      </div>
+      </footer>
 
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="./js/constructor.js"></script>
+    <script src="./js/database.js"></script>
+    <script src="./js/products.js" charset="utf-8"></script>
+    <script src="./js/add-to-cart.js"></script>
+  </body>
 </html>

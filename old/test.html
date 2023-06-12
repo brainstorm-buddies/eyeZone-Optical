@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Slider</title>
+    <style>
+      .slider {
+        width: 750px;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+      }
+
+      .slider-content {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+      }
+
+      .slider-item {
+        flex: 0 0 25%;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .product-card {
+        width: 100%;
+        height: 300px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .product-image {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+      }
+
+      .slider-arrows {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      .slider-arrow {
+        width: 30px;
+        height: 30px;
+        background-color: #ddd;
+        border-radius: 50%;
+        margin: 0 10px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      .slider-arrow:hover {
+        background-color: #bbb;
+      }
+
+      a{
+        color:black;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Product Slider</h1>
+    <div class="slider">
+      <div class="slider-content" id="slider-content"></div>
+    </div>
+    <div class="slider-arrows">
+      <div class="slider-arrow prev" id="prev">&#8249;</div>
+      <div class="slider-arrow next" id="next">&#8250;</div>
+    </div>
+    <script src="../js/constructor.js"></script>
+    <script src="../js/database.js"></script>
+    <script>
+      // Function to display random products in the slider
+      function displayRandomProducts() {
+        var sliderContent = document.getElementById("slider-content");
+        sliderContent.innerHTML = "";
+
+        var startIndex = Math.floor(Math.random() * (products.length - 2));
+        for (var i = startIndex; i < startIndex + 3; i++) {
+          var product = products[i];
+
+          var item = document.createElement("div");
+          item.classList.add("slider-item");
+
+          var card = document.createElement("div");
+          card.classList.add("product-card");
+
+          var image = document.createElement("img");
+          image.classList.add("product-image");
+          image.src = product.image;
+
+          var name = document.createElement("h3");
+          name.textContent = product.name;
+
+          var price = document.createElement("p");
+          price.textContent = "$" + product.price;
+
+          var link = document.createElement("a");
+          link.href = "../product.html?id=" + product.id; // Navigate to product.html with the corresponding product id
+          link.appendChild(card);
+          card.appendChild(image);
+          card.appendChild(name);
+          card.appendChild(price);
+          item.appendChild(link);
+          sliderContent.appendChild(item);
+        }
+      }
+
+      // Function to handle next slide
+      function nextSlide() {
+        var sliderContent = document.getElementById("slider-content");
+        sliderContent.style.transform = "translateX(25%)";
+        setTimeout(function () {
+          displayRandomProducts();
+          sliderContent.style.transform = "translateX(0%)";
+        }, 500);
+      }
+
+      // Function to handle previous slide
+      function prevSlide() {
+        var sliderContent = document.getElementById("slider-content");
+        sliderContent.style.transform = "translateX(-25%)";
+        setTimeout(function () {
+          displayRandomProducts();
+          sliderContent.style.transform = "translateX(0%)";
+        }, 500);
+      }
+
+      // Event listeners for arrow navigation
+      var nextArrow = document.getElementById("next");
+      nextArrow.addEventListener("click", nextSlide);
+
+      var prevArrow = document.getElementById("prev");
+      prevArrow.addEventListener("click", prevSlide);
+
+      // Display random products in the slider on page load
+      displayRandomProducts();
+    </script>
+  </body>
+</html>

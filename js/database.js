@@ -228,7 +228,7 @@ let products = [
     id: 14,
     name: "Colorhapsody",
     image:
-      "3-	https://media2.bulgari.com/f_auto,q_auto,c_pad,h_520,w_520/production/dwe42e1044/images/images/1435534.png",
+      "https://media2.bulgari.com/f_auto,q_auto,c_pad,h_520,w_520/production/dwe42e1044/images/images/1435534.png",
     price: 510,
     details: `
         <p>Brand: Bvlgari</p>
@@ -262,7 +262,7 @@ let products = [
     id: 16,
     name: "Bulgari men aviator",
     image:
-      "7-	https://media2.bulgari.com/f_auto,q_auto,c_pad,h_520,w_520/production/dw776a9e95/images/images/1478414.png",
+      "https://media2.bulgari.com/f_auto,q_auto,c_pad,h_520,w_520/production/dw776a9e95/images/images/1478414.png",
     price: 360,
     details: `
         <p>Brand: Bvlgari</p>

@@ -62,11 +62,15 @@ nav ul li a {
 }
 
 .icon {
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-  cursor: pointer;
-}
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .icon img {
+    height: 40px;
+    width: 40px;
+  }
 
 /* Main */
 
@@ -77,6 +81,8 @@ main {
 h1 {
   text-align: left;
   margin-bottom: 20px;
+  font-family: "Alike Angular";
+  text-align: center;
 }
 
 .container {
@@ -164,16 +170,17 @@ h2 {
 
 .main a {
   text-decoration: none;
-  background-color: #526d82;
+  background-color: #27374d;
   color: #fff;
   padding: 9px 49px;
   border-radius: 20px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
   font-size: 16px;
+  transition: all .2s;
 }
 
 .main a:hover {
-  background-color: #555;
+  background-color: #526d82;
 }
 /* Footer */
 /* 

@@ -6,6 +6,73 @@
 <meta http-equiv="X-UA-Compatible" content="IE-edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>eyeZone Optical 👓</title>
+
+<link rel="stylesheet" href="./styles/fonts.css">
+<link rel="stylesheet" href="./styles/index.css">
+<style>
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .card {
+        background-color: #D7C4D8;
+        padding: 20px;
+        border-radius: 10px;
+        flex: 0 0 calc(50% - 20px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .card:hover {
+        transform: scale(1.05);
+    }
+    
+    .card-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+        animation: pulse 1s infinite;
+    }
+    
+    .card-content {
+        margin-top: 10px;
+    }
+    
+    .person-name {
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .person-role {
+        margin: 5px 0;
+        font-size: 16px;
+    }
+    
+    .person-description {
+        margin-bottom: 10px;
+    }
+    
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.05);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+</style>
 <link rel="stylesheet" href="styles/font.css">
 <link rel="stylesheet" href="styles/index.css">
 <link rel="stylesheet" href="styles/aboutUs.css">
@@ -23,12 +90,139 @@
             <ul>
                 <li style="margin-top: 15px;"><a href="index.html">Home</a></li>
                 <li style="margin-top: 15px;"><a href="#brands">Brands</a></li>
+                <li style="margin-top: 15px;"><a href="about.html">About</a></li>
+
                 <li style="margin-top: 15px;"><a href="#">About</a></li>
                 <li class="icon"><img src="assets/main/cart.png" /></li>
             </ul>
         </nav>
 
     </header>
+    <main>
+        <!-- The video -->
+        <video autoplay muted loop id="myVideo">
+  <source src="assets/video/230307_PuristColor_30s_16-9_©until-12-2024.mp4" type="video/mp4">
+</video>
+
+
+        <!-- Optional: some overlay text to describe the video -->
+        <div class="content">
+            <h1>eyeZone Optical 👓 </h1>
+            <h2 style="margin-bottom: 40%;">Welcome To About us Page </h2>
+            <!-- Use a button to pause/play the video with JavaScript -->
+            <!-- <button id="myBtn">DISCOVER NOW</button> -->
+        </div>
+        <div class="card-container" style="margin-top: 20px;">
+            <div class="card" style="width: 100%; padding: 20px;">
+                <!-- <img class="card-image" src="https://avatars.githubusercontent.com/u/77068920?s=400&u=655db4aad66a95c92f0b1642d74369a0f5987e3f&v=4" alt="Person 1"> -->
+                <div class="card-content" style="width: 90%;">
+                    <h3 class="person-name">About Our Project :</h3>
+
+
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: 20px; text-align: start;">
+            <div class="card" style="width: 100%; padding: 20px;">
+                <!-- <img class="card-image" src="https://avatars.githubusercontent.com/u/77068920?s=400&u=655db4aad66a95c92f0b1642d74369a0f5987e3f&v=4" alt="Person 1"> -->
+                <div class="card-content" style="width: 90%;">
+
+                    <p style="width: 100%;">
+                        Our glasses-selling website stands out for providing a wonderful and unique shopping experience for our customers. We take pride in offering a wide range of high-quality glasses with elegant designs to meet the needs of all individuals.
+                        <br> When you visit our website, you will find a diverse collection of sunglasses, prescription glasses, and lenses for men and women. We are committed to selecting products from leading and trusted brands in the eyewear industry,
+                        ensuring high quality and excellent performance.
+                        <br> Thanks to our user-friendly interface and efficient website organization, you can easily browse through the products, explore their specifications, and check their prices. We are dedicated to helping you find the perfect glasses
+                        that match your personal preferences.
+                        <br> We prioritize providing a secure and reliable shopping experience. Therefore, we secure your personal information and financial transactions through our advanced security system. We also offer fast shipping and multiple payment
+                        options to maximize convenience for our customers.<br>If you have any inquiries or special needs, you can rely on our dedicated customer service team, who will be ready to assist you at any time. We strive to ensure your complete
+                        satisfaction and provide a unique and enjoyable shopping experience.
+                        <br> Join us today and enjoy a fantastic shopping experience on our glasses-selling website. We are confident that you will find the perfect glasses that suit your personal style and meet your visual needs.
+                        <br> Thank you for your trust, and we look forward to serving you soon!<br></p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="card-container" style="margin-top: 20px;">
+            <div class="card">
+                <!-- <img class="card-image" src="https://avatars.githubusercontent.com/u/77068920?s=400&u=655db4aad66a95c92f0b1642d74369a0f5987e3f&v=4" alt="Person 1"> -->
+                <div class="card-content">
+                    <h3 class="person-name">About Our Team :</h3>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="card-container" style="margin-top: 20px;">
+            <div class="card">
+                <img class="card-image" src="https://avatars.githubusercontent.com/u/77068920?s=400&u=655db4aad66a95c92f0b1642d74369a0f5987e3f&v=4" alt="Person 1">
+                <div class="card-content">
+                    <h3 class="person-name">Rawan Abuzir</h3>
+                    <p class="person-role">Software Engineering</p>
+                    <p class="person-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ultrices odio, eu posuere metus. Nam vitae tincidunt ligula.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="https://avatars.githubusercontent.com/u/104033672?v=4" alt="Person 2">
+                <div class="card-content">
+                    <h3 class="person-name">Kamal Shawer</h3>
+                    <p class="person-role">computer engineering</p>
+                    <p class="person-description">I Live in Amman, Studied computer engineering in Mutah university.</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img class="card-image" src="https://avatars.githubusercontent.com/u/67844709?v=4" alt="Person 1">
+                    <div class="card-content">
+                        <h3 class="person-name">saja abu kharma</h3>
+                        <p class="person-role">Tele-communication Engineering</p>
+                        <p class="person-description">graduated from Bau with a major in Tele-communication Engineering.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-image" src="./image/esraa.webp" alt="Person 2">
+                    <div class="card-content">
+                        <h3 class="person-name">Esraa Amaireh</h3>
+                        <p class="person-role">Biomedical Informatics Engineer</p>
+                        <p class="person-description">Biomedical Informatics Engineer | QA Trainee</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img class="card-image" src="https://avatars.githubusercontent.com/u/131386170?v=4" alt="Person 1">
+                        <div class="card-content">
+                            <h3 class="person-name">Laith Osaily</h3>
+                            <p class="person-role">Mechanical Engineering</p>
+                            <p class="person-description">live in amman, jordan | studied Mechanical Engineering .
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-image" src="https://avatars.githubusercontent.com/u/131862272?v=4" alt="Person 2">
+                        <div class="card-content">
+                            <h3 class="person-name">Bara' Al-Azzam</h3>
+                            <p class="person-role">civil engineer</p>
+                            <p class="person-description"> graduated from Yramouk university . i have worked as a site engineer for 6 months.</p>
+                        </div>
+                    </div>
+                    <div class="card-container" style="margin-bottom: 20px;">
+                        <div class="card">
+                            <img class="card-image" src="./image/rama.png" alt="Person 1">
+                            <div class="card-content">
+                                <h3 class="person-name">Rama hijazi</h3>
+                                <p class="person-role">Electrical Engineering</p>
+                                <p class="person-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ultrices odio, eu posuere metus. Nam vitae tincidunt ligula.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
 
     <main><h1>About Us</h1>
         <video autoplay muted loop id="myVideo">
@@ -81,6 +275,7 @@
     
     <footer>
     
+
         <div class="container ">
             <div class="footer-left ">
                 <p>Contact us:</p>
@@ -89,8 +284,12 @@
             </div>
             <div class="footer-middle " style="padding-top: 40px; ">
                 <p> &#128205; Location :</p>
+
+                <p>Taj Mall second floor</p>
+
                 <p>Taj Mall
                     second floor</p>
+
                 <p style="padding-top: 46px; "> © 2023 eyeZone Optical </p>
             </div>
             <div class="footer-right ">
@@ -102,6 +301,14 @@
                 </div>
             </div>
         </div>
+
+    </footer>
+    </div>
+    </footer>
+</body>
+
+</html>
+
         <p>Copyright &copy; 2023 <span class="ft">eyeZone Optical</span></p>
         </div>
     </footer>

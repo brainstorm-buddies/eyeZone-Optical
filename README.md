@@ -52,7 +52,7 @@ Link: [Wireframe and Design (Figma)](https://www.figma.com/file/ZWjlGNkwTYGISUsp
 
 ![](/assets/main/wireframe2.jpg)
 
-#### Product page & Cart page & Checkput page
+#### Product page & Cart page & Checkout page
 
 ![](/assets/main/wireframe3.jpg)
 
@@ -68,7 +68,7 @@ Link: [Wireframe and Design (Figma)](https://www.figma.com/file/ZWjlGNkwTYGISUsp
 
 ![](/assets/main/design2.jpg)
 
-#### Product page & Cart page & Checkput page
+#### Product page & Cart page & Checkout page
 
 ![](/assets/main/design3.jpg)
 

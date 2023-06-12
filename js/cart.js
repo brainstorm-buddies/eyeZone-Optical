@@ -22,7 +22,7 @@ function displayNumberOfProducts() {
 
 }
 
-// Function to display the product list
+// function to display the cart items
 function displayProductList() {
     let productTableBody = document.querySelector("#product-table tbody");
     productTableBody.innerHTML = "";
@@ -89,7 +89,7 @@ function displayProductList() {
     });
 }
 
-// Function to update the quantity of a product
+// function to update the quantity of a product
 function updateQuantity(code, quantity) {
     let products = getProductsFromLocalStorage();
     let product = products.find(function (p) {
@@ -105,7 +105,14 @@ function updateQuantity(code, quantity) {
     }
 }
 
-// Function to remove a product
+// function to decrease cart items by 1 for remove button
+function removeCartItem() {
+    let header = document.getElementById('cart-items')
+    let cartItems = header.querySelector('a');
+    cartItems.textContent = cartItems.textContent - 1;
+}
+
+// function to remove a product
 function removeProduct(code) {
     let products = getProductsFromLocalStorage();
     let index = products.findIndex(function (p) {
@@ -116,26 +123,32 @@ function removeProduct(code) {
         products.splice(index, 1);
         saveProductsToLocalStorage(products);
         displayProductList();
+        removeCartItem();
     }
 }
 
+// reset the entire cart
+function resetCartItems() {
+    let header = document.getElementById('cart-items')
+    let cartItems = header.querySelector('a');
+    cartItems.textContent = 0;
+}
+
+// function to clear all items from table
 function clearTable(event) {
     event.preventDefault();
     let products = getProductsFromLocalStorage();
     products = [];
     saveProductsToLocalStorage(products);
     displayProductList();
-    let header = document.getElementById('cart-items')
-    let counter = document.createElement('a')
-    counter.textContent = '0';
-    header.appendChild(counter);
     displayTotalPrice();
+    resetCartItems();
 }
 
-// Event listener for the add product form submission
+// Event listener for add to cart
 let clearProducts = document.getElementById("clear");
 clearProducts.addEventListener("click", clearTable);
 
-// Display the product list on page load
+// Display the product list on table
 displayProductList();
 displayNumberOfProducts();

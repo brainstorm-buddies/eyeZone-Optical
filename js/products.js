@@ -1,6 +1,6 @@
 'use strict';
 
-
+// javascript functions to handle products' displaying in product.html page
 let urlParams = new URLSearchParams(window.location.search);
 let productId = parseInt(urlParams.get("id"));
 
@@ -11,28 +11,32 @@ let product = products.find(function (p) {
 
 
 if (product) {
+    // product name
     let productNameDiv = document.getElementById("productName");
     let productHTML = `
       <p id="product-name" class='productName'>${product.name}</p>
     `;
     productNameDiv.innerHTML = productHTML;
 
+    // product details
     let productDetailsDiv = document.getElementById("productInfo");
-    let detailsHTML = product.details;
+    let detailsHTML = `${product.details}
+    <h2>Price: $<span id="product-price">${product.price}</span></h2>
+    <form class="quantity">
+    <input class="qLabel" value="1" type="number" id="product-quantity" min="1" max="100"
+    placeholder="Quantity">
+    <button class="addToCart" id="add-to-cart">
+        <p>Add to cart</p>
+    </button>
+    </form>`;
     productDetailsDiv.innerHTML = detailsHTML;
 
+    // product image and add-to-cart form
     let productImageFormDiv = document.getElementById("productImageForm");
     let imageHTML = `
     <img id='product-image' src="${product.image}"
     alt="${product.name}">
-    <form class="quantity"><div>
-    <h2>Price: $<span id="product-price">${product.price}</span></h2></div>
-    <input class="qLabel" type="number" id="product-quantity" min="1" max="100"
-    placeholder="Quantity">
-    <button class="addToCart" id="add-to-cart">
-        <p>Add To Cart</p>
-    </button>
-    </form>
+    
     `
     productImageFormDiv.innerHTML = imageHTML;
 

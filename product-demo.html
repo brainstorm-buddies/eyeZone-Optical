@@ -1,83 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tutorial</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!-- CSS -->
+    <link href="./styles/product-demo.css" rel="stylesheet">
+    <meta name="robots" content="noindex,follow" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="description" content="eyeZone Optical 👓">
-  <meta http-equiv="X-UA-Compatible" content="IE-edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>eyeZone Optical 👓</title>
-  <link rel="stylesheet" href="./styles/fonts.css">
-  <link rel="stylesheet" href="./styles/index.css">
-  <style>
-    table {
-      width: 100%;
-      border-collapse: collapse;
-    }
+  </head>
 
-    th,
-    td {
-      padding: 8px;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
+  <body>
+    <main class="container">
 
-    th {
-      background-color: #f2f2f2;
-    }
-  </style>
-</head>
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img data-image="black" src="images/black.png" alt="">
+        <img data-image="blue" src="images/blue.png" alt="">
+        <img data-image="red" class="active" src="images/red.png" alt="">
+      </div>
 
-<body>
 
-  <header>
-    <div class="logo">
-      <img src="./assets/main/logo.png" alt="Logo">
-      <!-- <h1 class="logo-title" style="margin-top: 10px;">eyeZone Optical 👓</h1>-->
-    </div>
-    <nav>
-      <ul>
-        <li style="margin-top: 15px;"><a href="index.html">Home</a></li>
-        <li style="margin-top: 15px;"><a href="#brands">Brands</a></li>
-        <li style="margin-top: 15px;"><a href="#">About</a></li>
-        <li class="icon"><img src="assets/main/cart.png" /></li>
-        <li id="cart-items"></li>
-      </ul>
-    </nav>
+      <!-- Right Column -->
+      <div class="right-column">
 
-  </header>
+        <!-- Product Description -->
+        <div class="product-description">
+          <span>Headphones</span>
+          <h1>Beats EP</h1>
+          <p>The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance</p>
+        </div>
 
-  <main>
+        <!-- Product Configuration -->
+        <div class="product-configuration">
 
-    <div id="product-name">
+          <!-- Product Color -->
+          <div class="product-color">
+            <span>Color</span>
 
-    </div>
-    <form id="product-form">
-      <label for="product-name">Name:</label>
-      <input type="text" id="product-name" required>
+            <div class="color-choose">
+              <div>
+                <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+                <label for="red"><span></span></label>
+              </div>
+              <div>
+                <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+                <label for="blue"><span></span></label>
+              </div>
+              <div>
+                <input data-image="black" type="radio" id="black" name="color" value="black">
+                <label for="black"><span></span></label>
+              </div>
+            </div>
 
-      <label for="product-quantity">Quantity:</label>
-      <input type="number" id="product-quantity" required>
+          </div>
 
-      <label for="product-price">Price:</label>
-      <input type="number" id="product-price" required>
+          <!-- Cable Configuration -->
+          <div class="cable-config">
+            <span>Cable configuration</span>
 
-      <label for="product-image">Image:</label>
-      <input type="text" id="product-image" required>
+            <div class="cable-choose">
+              <button>Straight</button>
+              <button>Coiled</button>
+              <button>Long-coiled</button>
+            </div>
 
-      <button type="submit">Add</button>
-    </form>
+            <a href="#">How to configurate your headphones</a>
+          </div>
+        </div>
 
-  </main>
+        <!-- Product Pricing -->
+        <div class="product-price">
+          <span>148$</span>
+          <a href="#" class="cart-btn">Add to cart</a>
+        </div>
+      </div>
+    </main>
 
-  <footer>
-    <div class="container">
-      <p>Copyright &copy; 2023 <span class="ft">eyeZone Optical</span></p>
-    </div>
-  </footer>
-  <script src="js/products.js"></script>
-</body>
-
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="./js/product-demo.js" charset="utf-8"></script>
+  </body>
 </html>
-
-<div class="carf"

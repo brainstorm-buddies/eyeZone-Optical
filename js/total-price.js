@@ -1,3 +1,5 @@
+
+// for checkout page
 function getProductsFromLocalStorage() {
     let products = localStorage.getItem("products");
     return products ? JSON.parse(products) : [];

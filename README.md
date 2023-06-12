@@ -14,6 +14,12 @@
 
 ## Updates
 
+### Version 1.5
+- Brand new desing for homepage.
+- Added javascript files.
+- Added database system using javascript.
+- Added cart / product page system.
+
 ### Version 1.1
 - Updated website's html files
 - Updated styling for each html file.

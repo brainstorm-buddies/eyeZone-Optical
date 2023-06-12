@@ -35,38 +35,19 @@
    <main>
     <div class="section1"></div>
     <center>
-        <p class="productName">
-            Light Rectangular frame sunglasses
-        </p>
+        <div id="productName"></div>
     </center>
 
     <div class="cont1">
         <div class="cont2">
-            <img src="https://media.gucci.com/style/White_Center_0_0_250x170/1616592604/663746_J0740_1012_001_100_0000_Light-Rectangular-frame-sunglasses.jpg"
-                alt=" product image ">
-            <form class="quantity">
-                <!-- <label for="qNumber"><p>Quantity</p></label> -->
-                <input class="qLabel" type="number" id="qNumber" min="1" max="100" name="qnumber"
-                    placeholder="Quantity">
-                <button class="addToCart" type="button" onclick="window.location='/cart.html'">
-                    <p>Add To Cart</p>
-                </button>
+            <div id="productImage">
 
-            </form>
-        </div>
-        <div class="prductInfo">
-
-            <p>Price :505$</p>
-            <p>Product code: 663746 J0740 1012</p>
-            <p>Color: Black</p>
-            <p>Lens Shape: Rectangular</p>
-            <p>Lens Size (mm): 145</p>
-            <p>Frame Dimension (mm): height: 2.4,width: 5.8</p>
-            <div class="navPages">
-                <p>Want to see Another Product ?</p>
-                <p><a href="/categories.html"> Click Here To Shop By Category</a></p>
-                <p><a href="/brands.html">Click Here To Shop By Brands</a></p>
+                
             </div>
+        </div>
+        <div id="productInfo" class="productInfo">
+
+        
         </div>
     </div>
 
@@ -193,6 +174,9 @@
             <p>Copyright &copy; 2023 <span class="ft">eyeZone Optical</span></p>
         </div>
     </footer>
+    <script src="/js/cart.js"></script>
+    <script src="/js/database.js"></script>
+    <script src="/js/products.js"></script>
 </body>
 
 </html>

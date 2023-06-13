@@ -15,7 +15,7 @@ function saveProductsToLocalStorage(products) {
 function displayNumberOfProducts() {
     let products = getProductsFromLocalStorage();
     let productList = products.length;
-    let header = document.getElementById('cart-items')
+    let header = document.getElementById('cart-icon')
     let counter = document.createElement('span')
     counter.textContent = productList;
     header.appendChild(counter);

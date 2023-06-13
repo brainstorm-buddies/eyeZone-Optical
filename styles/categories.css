@@ -142,71 +142,19 @@ body {
   }
 
 
-/* header {
-    font-family: 'Inter', sans-serif;
-    background-color: #27374D;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
 
-.logo {
-    height: 30px;
-    width: 30px;
-    display: flex;
-    align-items: center;
-    color: #fff;
-}
-
-.logo img {
-    height: 80px;
-    width: auto;
-}
-
-nav {
-
-    position: relative;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin-left: 10px;
-}
-
-nav ul li:last-child {
-    margin-right: 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.icon {
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-    cursor: pointer;
-} */
 
 /* Main */
 
 main {
-    padding: 20px;
+    padding: 0px;
 }
 
 h1 {
     text-align: left;
     /* text-align: center; */
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 h2 {
@@ -459,7 +407,17 @@ footer {
 
 .video-background {
     position: relative;
+
+    
 }
+
+.video-background img {
+    position: relative;
+    width: 100%;
+
+    
+}
+
 
 .video-background video {
     position: absolute;

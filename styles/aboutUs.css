@@ -24,7 +24,7 @@ header {
 .navbar {
   overflow: hidden;
   background-color: transparent; 
-  /* background-color: rgba(39, 55, 77, 0.5); */
+  /* background-color: rgba(0, 0, 0, 0.5); */
   align-items: center;
   padding: 0px;
   z-index: 1;
@@ -81,7 +81,7 @@ width: 100%;
 
 .subnav-content a {
   float: none;
-  color: white;
+  color: black;
   text-decoration: none;
   margin-right:63px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
@@ -92,10 +92,10 @@ width: 100%;
 
 .subnav-content a:hover {
   /* background-color:  rgba(255, 255, 255, 0.2); */
-  color: black;
+  color: white;
  
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  background-color: #ddd;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .subnav:hover .subnav-content {
@@ -120,6 +120,18 @@ width: 100%;
   opacity: 0.5;
 }
 
+
+#myVideo {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+}
+
+.video-container {
+  position: relative;
+  display: inline-block;
+}
+
     .card-container {
         display: flex;
         flex-wrap: wrap;
@@ -128,19 +140,14 @@ width: 100%;
     }
     
     .card {
-        background-color: #D7C4D8;
-        padding: 20px;
-        border-radius: 10px;
+        background-color: #a5aabf57;
+        /* border-radius: 10px; */
         flex: 0 0 calc(50% - 20px);
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
-        transition: transform 0.3s ease-in-out;
-    }
-    
-    .card:hover {
-        transform: scale(1.05);
+        /* text-align: center; */
+        /* transition: transform 0.3s ease-in-out; */
     }
     
     .card-image {
@@ -154,6 +161,7 @@ width: 100%;
     
     .card-content {
         margin-top: 10px;
+        
     }
     
     .person-name {
@@ -188,7 +196,7 @@ width: 100%;
   background: linear-gradient(-45deg, #27374D, #526D82, #9DB2BF);
   animation: gradient 15s ease infinite;
   /* background-color:#526D82; */
-  font-family: 'Hubballi', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: space-around;
 }

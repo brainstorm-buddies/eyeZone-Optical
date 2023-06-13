@@ -17,63 +17,129 @@ a {
 
 /* Header */
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
 header {
-    font-family: 'Inter', sans-serif;
-    background-color: #27374D;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+  position: relative;
+  width: 100%;
+  z-index: 3;
 }
 
 .logo {
-    height: 30px;
-    width: 30px;
-    display: flex;
-    align-items: center;
-    color: #fff;
+  height: 60px ;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  color: #27374D;
+  margin-left: 20px ;
+  margin-top: 8px;
 }
 
 .logo img {
-    height: 80px;
-    width: auto;
+  height: 80px;
+  width: auto;
 }
 
-nav {
-    
-    position: relative;
+
+.navbar {
+  overflow: hidden;
+  background-color: transparent; 
+  background-color:#27374d;
+  align-items: center;
+  padding: 0px;
+  z-index: 1;
+width: 100%;
+
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 32px 6px;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-nav ul li {
-    margin-left: 10px;
+.subnav {
+  float: right;
+  overflow: hidden;
+  z-index: 1;
+  
 }
 
-nav ul li:last-child {
-    margin-right: 10px;
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 25px 26px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  z-index: 1;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
+
+ .subnav:hover .subnavbtn {
+  /* background-color: rgba(39, 55, 77, 0.25); */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  /* opacity: 0.5; */
 }
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  /* background-color:  rgba(39, 55, 77, 0.25);
+  /* min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */ 
+  z-index: 1;
+  
+}
+
+.subnav-content a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  margin-right:63px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  display: block;
+  padding: 12px 16px;
+ 
+}
+
+.subnav-content a:hover {
+  /* background-color:  rgba(255, 255, 255, 0.2); */
+  color: white;
+ 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  background-color:#323f50;
+}
+
+.subnav:hover .subnav-content {
+  display: block;  }
 
 .icon {
   display: flex;
   align-items: center;
   margin-left: 10px;
   cursor: pointer;
+  float: right;
+  padding: 24px 36px;
 }
+
 .icon img {
   height: 40px;
-  width: 40px;
+  float: right;
+}
+
+.icon img:hover  {
+  opacity: 0.5;
 }
 /*main*/
 

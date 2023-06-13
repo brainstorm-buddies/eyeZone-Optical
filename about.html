@@ -14,8 +14,8 @@
 
     <header>
         <div class="navbar">
-            <li class="icon"><img src="assets/Screen_Shot_2023-06-11_at_5.38.22_PM-removebg-preview.png" /></li>
-            <a href="./about.html">About</a>
+            <li id="cart-items" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);" class="icon"><img src="assets/Screen_Shot_2023-06-11_at_5.38.22_PM-removebg-preview.png" /></a></li>
+            <a style="margin-top: 4px;" href="/about.html">About</a>
             <div class="subnav">
               <button class="subnavbtn">Brands <i class="fa fa-caret-down"></i></button>
               <div class="subnav-content">
@@ -24,8 +24,8 @@
                 <a href="bella.html">BELLA</a>
               </div>
             </div>
-            <a href="index.html">Home</a>
-            <img class="logo" src="./assets/main/logo.png" alt="Logo">
+            <a style="margin-top: 4px;" href="index.html">Home</a>
+            <img class="logo" src="/assets/main/logo.png" alt="Logo">
           </div>
     </header>
     <main>
@@ -49,7 +49,7 @@
             <div  style="text-align: center; padding: 20px; margin-left: 120px;">
                 <!-- <img class="card-image" src="https://avatars.githubusercontent.com/u/77068920?s=400&u=655db4aad66a95c92f0b1642d74369a0f5987e3f&v=4" alt="Person 1"> -->
                 <div class="card-content" style="width: 90%;">
-                    <h3 class="person-name">About Our Project :</h3>
+                    <span class="person-name">About Our Project :</span>
                 </div>
             </div>
         </div>
@@ -96,15 +96,15 @@
                     </br>
                     <div class="sstyle">
                         <p>
-                            <a href="../categories.html#sunglasses">Sunglasses</a>
+                            <a href="./categories.html#sunglasses">Sunglasses</a>
                         </p>
                         </br>
                         <p>
-                            <a href="../categories.html#eyeglasses">Eyeglasses</a>
+                            <a href="./categories.html#eyeglasses">Eyeglasses</a>
                         </p>
                         </br>
                         <p>
-                            <a href="../categories.html#lenses">lenses</a>
+                            <a href="./categories.html#lenses">lenses</a>
                         </p>
                         </br>
                     </div>
@@ -129,6 +129,9 @@
         <div class="copyright">
             <p>© 2023 eyeZone Optical</p>
         </div>
+        <script src="/js/constructor.js"></script>
+    <script src="/js/database.js"></script>
+    <script src="/js/cart-items.js"></script>
     </body>
     
     </html>

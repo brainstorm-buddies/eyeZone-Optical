@@ -12,23 +12,19 @@
 
 <body>
   <header>
-    <div class="navbar">
-      <a id="cart-items"></a>
-      <li class="icon"><img id="cart-icon" src="assets/Screen_Shot_2023-06-11_at_5.38.22_PM-removebg-preview.png" /></a></li>
-      
-      <a style="margin-top: 10px;" href="/about.html">About</a>
-      <div class="subnav">
-        <button style="margin-top: 4px;" class="subnavbtn">Brands <i class="fa fa-caret-down"></i></button>
-        <div class="subnav-content">
-          <a href="Gucci.html">GUCCI</a>
-          <a href="bulgri.html">BVLGARI</a>
-          <a href="bella.html">BELLA</a>
-        </div>
-      </div>
-      
-      <a style="margin-top: 10px;" href="index.html">Home</a>
-      <img href="index.html"class="logo" src="assets/logo.png" alt="Logo">
+    <div class="logo">
+      <img src="/assets/main/logo.png" alt="Logo">
+      <!-- <h1 class="logo-title" style="margin-top: 10px;">eyeZone Optical 👓</h1>-->
     </div>
+    <nav>
+      <ul>
+        <li style="margin-top: 15px;"><a href="index.html">Home</a></li>
+        <li style="margin-top: 15px;"><a href="#brands">Brands</a></li>
+        <li style="margin-top: 15px;"><a href="#">About</a></li>
+        <li class="icon"><a href="cart.html"> <img src="assets/main/cart.png" /></a></li>
+        <li id="cart-items" style="margin-top: 15px;"></li>
+      </ul>
+    </nav>
 
   </header>
   <main>
@@ -164,7 +160,6 @@
 </script>
 <script src="js/total-price.js"></script>
 <script src="js/checkout.js"></script>
-<script src="/js/navigator.js"></script>
 </body>
 </html>
 

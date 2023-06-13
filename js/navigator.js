@@ -5,3 +5,10 @@ function navigateToPage(pageName) {
     let newURL = baseUrl + "/" + pageName;
     window.location.href = newURL;
   }
+
+  function cartHrefHandler() {
+    window.location.href = '/cart.html'
+  }
+
+  let cartHref = document.getElementById("cart-icon");
+  cartHref.addEventListener("click", cartHrefHandler);

@@ -16,7 +16,7 @@ function displayNumberOfProducts() {
     let products = getProductsFromLocalStorage();
     let productList = products.length;
     let header = document.getElementById('cart-items')
-    let counter = document.createElement('a')
+    let counter = document.createElement('span')
     counter.textContent = productList;
     header.appendChild(counter);
 

@@ -14,6 +14,12 @@
 
 ## Updates
 
+### Version 2.0
+- Updated wireframe and design.
+- Brand new design and functions.
+- The website is ready! enjoy :D
+
+
 ### Version 1.5
 - Brand new desing for homepage.
 - Added javascript files.

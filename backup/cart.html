@@ -10,31 +10,25 @@
   <link rel="stylesheet" href="/styles/fonts.css">
   <link rel="stylesheet" href="/styles/cart.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Shopping Cart - eyeZone Optical 👓</title>
 </head>
 
 <body>
 
   <header>
-    
-    <div class="navbar">
-      <a style="margin-top: 8px; margin-right: 10px;" id="cart-items"></a>
-      <li class="icon"><img id="cart-icon" src="assets/Screen_Shot_2023-06-11_at_5.38.22_PM-removebg-preview.png" /></a></li>
-      
-      <a href="/about.html">About</a>
-      <div class="subnav">
-        <button class="subnavbtn">Brands <i class="fa fa-caret-down"></i></button>
-        <div class="subnav-content">
-          <a href="Gucci.html">GUCCI</a>
-          <a href="bulgri.html">BVLGARI</a>
-          <a href="bella.html">BELLA</a>
-        </div>
-      </div>
-      
-      <a href="index.html">Home</a>
-      <img href="index.html"class="logo" src="assets/logo.png" alt="Logo">
+    <div class="logo">
+      <img src="/assets/main/logo.png" alt="Logo">
+      <!-- <h1 class="logo-title" style="margin-top: 10px;">eyeZone Optical 👓</h1>-->
     </div>
-      
-   
+    <nav>
+      <ul>
+        <li style="margin-top: 15px;"><a href="index.html">Home</a></li>
+        <li style="margin-top: 15px;"><a href="#brands">Brands</a></li>
+        <li style="margin-top: 15px;"><a href="#">About</a></li>
+        <li class="icon"><a href="cart.html"> <img src="assets/main/cart.png" /></a></li>
+        <li id="cart-items" style="margin-top: 15px;"></li>
+      </ul>
+    </nav>
 
   </header>
 
@@ -60,8 +54,8 @@
       </table>
 
     </div>
-    <div class="total">
-      <h2 style="text-align: right;">TOTAL: $<span id="total-price"></span></h2>
+    <div class="total" style="text-align: right;">
+      <h2>TOTAL: $<span id="total-price"></span></h2>
       <div class="main">
         <ul>
           <li><a style="cursor: pointer;" id="clear" type="submit">Clear</a></li>

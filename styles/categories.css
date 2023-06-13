@@ -180,6 +180,11 @@ footer {
 
 }
 
+.card-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 
 
 .card-text {

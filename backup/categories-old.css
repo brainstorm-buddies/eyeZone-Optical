@@ -72,7 +72,7 @@ nav ul li a {
 /* Main */
 
 main {
-    padding: 0px;
+    padding: 20px;
 }
 
 h1 {
@@ -177,12 +177,7 @@ footer {
     margin: 10px 0 0 0;
     font-weight: bold;
 
-
-}
-
-.card-link {
-    cursor: pointer;
-    text-decoration: none;
+    
 }
 
 
@@ -354,7 +349,7 @@ footer {
     left: 0;
     width: 100%;
     height: 200%;
-    opacity: 0.5;
+
     object-fit: cover;
     z-index: -1;
 }

@@ -166,6 +166,7 @@ h2 {
 .main li {
   display: inline-block;
   margin-right: 10px;
+  margin-bottom: 20px;
 }
 
 .main a {

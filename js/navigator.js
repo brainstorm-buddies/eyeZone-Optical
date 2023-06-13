@@ -7,7 +7,7 @@ function navigateToPage(pageName) {
   }
 
   function cartHrefHandler() {
-    window.location.href = '/cart.html'
+    window.location.href = './cart.html'
   }
 
   let cartHref = document.getElementById("cart-icon");

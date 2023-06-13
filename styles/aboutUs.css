@@ -165,8 +165,9 @@ width: 100%;
     }
     
     .person-name {
+      font-family: "Alike Angular";
         margin: 0;
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
     }
     

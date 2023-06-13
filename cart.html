@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE-edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>eyeZone Optical 👓</title>
-  <link rel="stylesheet" href="./styles/fonts.css">
-  <link rel="stylesheet" href="./styles/cart.css">
+  <link rel="stylesheet" href="/styles/fonts.css">
+  <link rel="stylesheet" href="/styles/cart.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -17,9 +17,10 @@
   <header>
     
     <div class="navbar">
-      <li id="cart-items" style="margin-top: 15px;"></li>
-      <li class="icon"><img src="assets/Screen_Shot_2023-06-11_at_5.38.22_PM-removebg-preview.png" /></a></li>
-      <a href="./about.html">About</a>
+      <a style="margin-top: 8px; margin-right: 10px;" id="cart-items"></a>
+      <li class="icon"><img id="cart-icon" src="assets/Screen_Shot_2023-06-11_at_5.38.22_PM-removebg-preview.png" /></a></li>
+      
+      <a href="/about.html">About</a>
       <div class="subnav">
         <button class="subnavbtn">Brands <i class="fa fa-caret-down"></i></button>
         <div class="subnav-content">
@@ -60,7 +61,7 @@
 
     </div>
     <div class="total">
-      <h2>TOTAL: $<span id="total-price"></span></h2>
+      <h2 style="text-align: right;">TOTAL: $<span id="total-price"></span></h2>
       <div class="main">
         <ul>
           <li><a style="cursor: pointer;" id="clear" type="submit">Clear</a></li>

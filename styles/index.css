@@ -155,20 +155,26 @@ width: 100%;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 1;
   object-position: center;
+  transition: .5s ease; 
   /* transition: transform 0.1s ease; */
-  
+}
+
+.image:hover {
+  opacity: 0.5;
+  background-color: #000000;
 }
 
 .overlay {
-  position: absolute;
+  position: static;
   /* top: 100%; */
   left: 0;
   height: 400px;
   width: 300px;
   opacity: 0;
-  /* transition: .5s ease; */
-  background-color: #0f121391;
+  transition: .5s ease; 
+  /* background-color: #0f121391; */
   
 }
 
@@ -180,13 +186,15 @@ width: 100%;
 
 
 .text {
+  font-family:'Alike Angular', sans-serif;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
 
@@ -426,13 +434,6 @@ margin-bottom: 20px;
   margin-bottom: 20px;
 }
 
-.glass img{
-  margin-top:5%;
-  margin-left:5%;
-  width:26.5% ;
-  /* box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2); */
-}
-
 
 
 
@@ -513,13 +514,13 @@ margin-bottom: 20px;
 
 
 
-.brands {font-family: alike;
+.brands {
+  font-family: 'Alike Angular';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 40px;
   line-height: 21px;
   /* margin-left: ; */
-  text-decoration: underline;
   color: #000000;
   width: 100%;
   height: 100%;
@@ -702,4 +703,3 @@ z-index: -1;
       text-decoration: none;
       color: #FFFFFF;
   }
-

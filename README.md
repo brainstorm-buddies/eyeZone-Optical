@@ -52,15 +52,15 @@ Link: [Wireframe and Design (Figma)](https://www.figma.com/file/ZWjlGNkwTYGISUsp
 
 #### Home page & Category page & About page
 
-![](/assets/main/wireframe1.jpg)
+![](/assets/main/wireframe21.jpg)
 
 #### Brand 1 page & Brand 2 page & Brand 3 page
 
-![](/assets/main/wireframe2.jpg)
+![](/assets/main/wireframe22.jpg)
 
 #### Product page & Cart page & Checkout page
 
-![](/assets/main/wireframe3.jpg)
+![](/assets/main/wireframe23.jpg)
 
 ---
 
@@ -68,15 +68,15 @@ Link: [Wireframe and Design (Figma)](https://www.figma.com/file/ZWjlGNkwTYGISUsp
 
 #### Homepage & Category page & About page
 
-![](/assets/main/design.jpg)
+![](/assets/main/design21.jpg)
 
 #### Brand 1 page & Brand 2 page & Brand 3 page
 
-![](/assets/main/design2.jpg)
+![](/assets/main/design22.jpg)
 
 #### Product page & Cart page & Checkout page
 
-![](/assets/main/design3.jpg)
+![](/assets/main/design23.jpg)
 
 ---
 

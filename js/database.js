@@ -46,8 +46,8 @@ let products = [
       <p>Frame Dimension (mm):135</p>
       <div class="navPages">
           <p>Want to see Another Product ?</p>
-          <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+          <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
       </div>
       `
   },
@@ -66,8 +66,8 @@ let products = [
       <p>Frame Dimension (mm):132</p>
       <div class="navPages">
           <p>Want to see Another Product ?</p>
-          <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+          <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
       </div>
       `
   },
@@ -87,8 +87,8 @@ let products = [
       <p>Frame Dimension (mm):125</p>
       <div class="navPages">
           <p>Want to see Another Product ?</p>
-          <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+          <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
       </div>
       `
   },
@@ -107,8 +107,8 @@ let products = [
       <p>Frame Dimension (mm): 127</p>
       <div class="navPages">
           <p>Want to see Another Product ?</p>
-          <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+          <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
       </div>
       `
   },
@@ -127,8 +127,8 @@ let products = [
       <p>Frame Dimension (mm):124</p>
       <div class="navPages">
           <p>Want to see Another Product ?</p>
-          <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+          <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
       </div>
       `
   },
@@ -147,14 +147,14 @@ let products = [
       <p>Frame Dimension (mm): 129</p>
       <div class="navPages">
           <p>Want to see Another Product ?</p>
-          <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+          <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
       </div>
       `
   },
   {
       id: 9, name: "Ceder",
-      image: '../assets/lenses/ceder.jpg',
+      image: './assets/lenses/ceder.jpg',
       price: 10,
       details: `
       <p>Price :10$</p>
@@ -167,14 +167,14 @@ let products = [
       <p>Frame Dimension (mm): 1</p>
       <div class="navPages">
           <p>Want to see Another Product ?</p>
-          <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+          <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
       </div>
       `
   },
   {
       id: 10, name: "Mysterious",
-      image: '../assets/lenses/1.jpg',
+      image: './assets/lenses/1.jpg',
       price: 30,
       details: `
       <p>Price :30$</p>
@@ -187,14 +187,14 @@ let products = [
       <p>Frame Dimension (mm): 1</p>
       <div class="navPages">
           <p>Want to see Another Product ?</p>
-          <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+          <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
       </div>
       `
   },
   {
       id: 11, name: "Almond brown",
-      image: '../assets/lenses/2.jpg',
+      image: './assets/lenses/2.jpg',
       price: 10,
       details: `
       <p>Price :10$</p>
@@ -207,15 +207,15 @@ let products = [
       <p>Frame Dimension (mm): 1</p>
       <div class="navPages">
           <p>Want to see Another Product ?</p>
-          <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+          <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
       </div>
       `
   },
   {
       id: 12, 
       name: "Almond gray",
-      image: '../assets/lenses/3.jpg',
+      image: './assets/lenses/3.jpg',
       price: 30,
       details: `
       <p>Price :30$</p>
@@ -228,8 +228,8 @@ let products = [
       <p>Frame Dimension (mm): 1</p>
       <div class="navPages">
           <p>Want to see Another Product ?</p>
-          <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+          <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
       </div>
       `
   },
@@ -237,7 +237,7 @@ let products = [
   {
     id: 13, 
     name: "hazel hony",
-    image: '../assets/lenses/3.jpg',
+    image: './assets/lenses/3.jpg',
     price: 10,
     details: `
     <p>Price :10$</p>
@@ -250,8 +250,8 @@ let products = [
     <p>Frame Dimension (mm): 1</p>
     <div class="navPages">
         <p>Want to see Another Product ?</p>
-        <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-        <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+        <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+        <p><a href="./brands.html">Click Here To shope By Brands</a></p>
     </div>
     `
 },
@@ -259,7 +259,7 @@ let products = [
 {
   id: 14, 
   name: "BROWN SHADOW",
-  image: '../assets/lenses/3.jpg',
+  image: './assets/lenses/3.jpg',
   price: 30,
   details: `
   <p>Price :30$</p>
@@ -272,8 +272,8 @@ let products = [
   <p>Frame Dimension (mm): 1</p>
   <div class="navPages">
       <p>Want to see Another Product ?</p>
-      <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-      <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+      <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+      <p><a href="./brands.html">Click Here To shope By Brands</a></p>
   </div>
   `
 },
@@ -293,8 +293,8 @@ details: `
 <p>Frame Dimension (mm): height: 2.4,width: 5.8</p>
 <div class="navPages">
     <p>Want to see Another Product ?</p>
-    <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-    <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+    <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+    <p><a href="./brands.html">Click Here To shope By Brands</a></p>
 </div>
 `
 },
@@ -314,8 +314,8 @@ details: `
 <p>Frame Dimension (mm): height: 2,width: 5.8</p>
 <div class="navPages">
     <p>Want to see Another Product ?</p>
-    <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-    <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+    <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+    <p><a href="./brands.html">Click Here To shope By Brands</a></p>
 </div>
 `
 },
@@ -335,8 +335,8 @@ details: `
 <p>Frame Dimension (mm): height: 1.6,width: 5.8</p>
 <div class="navPages">
     <p>Want to see Another Product ?</p>
-    <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-    <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+    <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+    <p><a href="./brands.html">Click Here To shope By Brands</a></p>
 </div>
 `
 },
@@ -356,8 +356,8 @@ details: `
 <p>Frame Dimension (mm): height: 2,width: 5.5</p>
 <div class="navPages">
     <p>Want to see Another Product ?</p>
-    <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-    <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+    <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+    <p><a href="./brands.html">Click Here To shope By Brands</a></p>
 </div>
 `
 },
@@ -377,8 +377,8 @@ details: `
 <p>Frame Dimension (mm): height: 2.3,width: 5.7</p>
 <div class="navPages">
     <p>Want to see Another Product ?</p>
-    <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-    <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+    <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+    <p><a href="./brands.html">Click Here To shope By Brands</a></p>
 </div>
 `
 },
@@ -398,8 +398,8 @@ details: `
 <p>Frame Dimension (mm): height: 2,width: 5.5</p>
 <div class="navPages">
     <p>Want to see Another Product ?</p>
-    <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-    <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+    <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+    <p><a href="./brands.html">Click Here To shope By Brands</a></p>
 </div>
 `
 },
@@ -419,8 +419,8 @@ details: `
 <p>Frame Dimension (mm): height: 2,width: 5.5</p>
 <div class="navPages">
     <p>Want to see Another Product ?</p>
-    <p> <a href="/categories.html"> Click Here To Shope By Catigory</a> </p>
-    <p><a href="/brands.html">Click Here To shope By Brands</a></p>
+    <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+    <p><a href="./brands.html">Click Here To shope By Brands</a></p>
 </div>
 `
 },

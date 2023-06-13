@@ -10,6 +10,10 @@ body {
     color: #27374D;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 /* Header */
 
@@ -62,10 +66,14 @@ nav ul li a {
 }
 
 .icon {
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.icon img {
+  height: 40px;
+  width: 40px;
 }
 /*main*/
 
@@ -97,7 +105,7 @@ nav ul li a {
   background-color: #f2f2f2;
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
-  border-radius: 3px;
+  border-radius: 24px;
 }
 
 input[type=text] {
@@ -105,13 +113,13 @@ input[type=text] {
   margin-bottom: 20px;
   padding: 12px;
   border: 1px solid #526D82;
-  border-radius: 5px;
+  border-radius: 24px;
   
   
 }
 .h2{
   margin-left: 40%;
-  font-family: "alike angular" ;
+  font-family: "Alike Angular" ;
   font-weight: bold;
 }
 
@@ -133,10 +141,11 @@ label {
   margin-left: 37%;
   color: #fff;
 
-  border-radius: 15px;
+  border-radius: 24px;
   /* width: 150px;
   height: 150px; */
   font-size: 16px;
+  transition: all .2s;
   
 }
 

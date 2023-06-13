@@ -125,7 +125,7 @@ function displayRandomProducts() {
       price.textContent = "$" + product.price;
 
       let link = document.createElement("a");
-      link.href = "../product.html?id=" + product.id; // Navigate to product.html with the corresponding product id
+      link.href = "./product.html?id=" + product.id; // Navigate to product.html with the corresponding product id
       link.appendChild(card);
       card.appendChild(image);
       card.appendChild(name);

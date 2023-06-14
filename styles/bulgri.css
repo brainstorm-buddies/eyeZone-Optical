@@ -309,6 +309,11 @@ margin-top:200px;
   color: #fff;
   text-decoration: none;
 }
+
+.links {
+  text-decoration: none;
+}
+
 .last-column{text-align: center;
   color: #DDE6ED;}
  .last-column a{

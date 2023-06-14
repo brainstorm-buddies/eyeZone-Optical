@@ -108,7 +108,7 @@ function updateQuantity(code, quantity) {
 // function to decrease cart items by 1 for remove button
 function removeCartItem() {
     let header = document.getElementById('cart-items')
-    let cartItems = header.querySelector('a');
+    let cartItems = header.querySelector('span');
     cartItems.textContent = cartItems.textContent - 1;
 }
 
@@ -123,6 +123,7 @@ function removeProduct(code) {
         products.splice(index, 1);
         saveProductsToLocalStorage(products);
         displayProductList();
+        displayTotalPrice();
         removeCartItem();
     }
 }
@@ -130,7 +131,7 @@ function removeProduct(code) {
 // reset the entire cart
 function resetCartItems() {
     let header = document.getElementById('cart-items')
-    let cartItems = header.querySelector('a');
+    let cartItems = header.querySelector('span');
     cartItems.textContent = 0;
 }
 

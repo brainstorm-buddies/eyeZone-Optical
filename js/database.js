@@ -14,6 +14,11 @@ let products = [
       <p>Lens Shape: angular</p>
       <p>Lens Size (mm): 59</p>
       <p>Frame Dimension (mm): 136</p>
+      <div class="navPages">
+    <p>Want to see Another Product ?</p>
+    <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+    <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
+</div>
       `
   },
   {
@@ -29,6 +34,11 @@ let products = [
       <p>Lens Shape: RecAngular</p>
       <p>Lens Size (mm): 55</p>
       <p>Frame Dimension (mm): 127</p>
+      <div class="navPages">
+    <p>Want to see Another Product ?</p>
+    <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+    <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
+</div>
       `
   },
   {
@@ -47,7 +57,7 @@ let products = [
       <div class="navPages">
           <p>Want to see Another Product ?</p>
           <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+          <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
       </div>
       `
   },
@@ -67,7 +77,7 @@ let products = [
       <div class="navPages">
           <p>Want to see Another Product ?</p>
           <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+          <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
       </div>
       `
   },
@@ -75,7 +85,7 @@ let products = [
   {
       id: 5, name: "Serpenti squared",
       image: 'https://media2.bulgari.com/f_auto,q_auto,c_pad,h_520,w_520/production/dw22d7b56f/images/images/1405667.png',
-      price: 303,
+      price: 505,
       details: `
       <p>Price :505$</p>
       <p>
@@ -88,7 +98,7 @@ let products = [
       <div class="navPages">
           <p>Want to see Another Product ?</p>
           <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+          <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
       </div>
       `
   },
@@ -108,7 +118,7 @@ let products = [
       <div class="navPages">
           <p>Want to see Another Product ?</p>
           <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+          <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
       </div>
       `
   },
@@ -128,7 +138,7 @@ let products = [
       <div class="navPages">
           <p>Want to see Another Product ?</p>
           <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+          <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
       </div>
       `
   },
@@ -148,7 +158,7 @@ let products = [
       <div class="navPages">
           <p>Want to see Another Product ?</p>
           <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+          <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
       </div>
       `
   },
@@ -168,13 +178,13 @@ let products = [
       <div class="navPages">
           <p>Want to see Another Product ?</p>
           <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+          <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
       </div>
       `
   },
   {
       id: 10, name: "Mysterious",
-      image: './assets/lenses/1.jpg',
+      image: './assets/lenses/3.jpg',
       price: 30,
       details: `
       <p>Price :30$</p>
@@ -188,13 +198,13 @@ let products = [
       <div class="navPages">
           <p>Want to see Another Product ?</p>
           <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+          <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
       </div>
       `
   },
   {
       id: 11, name: "Almond brown",
-      image: './assets/lenses/2.jpg',
+      image: './assets/lenses/1.jpg',
       price: 10,
       details: `
       <p>Price :10$</p>
@@ -208,14 +218,14 @@ let products = [
       <div class="navPages">
           <p>Want to see Another Product ?</p>
           <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+          <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
       </div>
       `
   },
   {
       id: 12, 
       name: "Almond gray",
-      image: './assets/lenses/3.jpg',
+      image: './assets/lenses/2.jpg',
       price: 30,
       details: `
       <p>Price :30$</p>
@@ -229,7 +239,7 @@ let products = [
       <div class="navPages">
           <p>Want to see Another Product ?</p>
           <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-          <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+          <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
       </div>
       `
   },
@@ -251,7 +261,7 @@ let products = [
     <div class="navPages">
         <p>Want to see Another Product ?</p>
         <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-        <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+        <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
     </div>
     `
 },
@@ -273,7 +283,7 @@ let products = [
   <div class="navPages">
       <p>Want to see Another Product ?</p>
       <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-      <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+      <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
   </div>
   `
 },
@@ -294,7 +304,7 @@ details: `
 <div class="navPages">
     <p>Want to see Another Product ?</p>
     <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-    <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+    <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
 </div>
 `
 },
@@ -315,7 +325,7 @@ details: `
 <div class="navPages">
     <p>Want to see Another Product ?</p>
     <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-    <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+    <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
 </div>
 `
 },
@@ -336,7 +346,7 @@ details: `
 <div class="navPages">
     <p>Want to see Another Product ?</p>
     <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-    <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+    <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
 </div>
 `
 },
@@ -357,7 +367,7 @@ details: `
 <div class="navPages">
     <p>Want to see Another Product ?</p>
     <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-    <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+    <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
 </div>
 `
 },
@@ -378,7 +388,7 @@ details: `
 <div class="navPages">
     <p>Want to see Another Product ?</p>
     <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-    <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+    <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
 </div>
 `
 },
@@ -399,7 +409,7 @@ details: `
 <div class="navPages">
     <p>Want to see Another Product ?</p>
     <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-    <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+    <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
 </div>
 `
 },
@@ -420,9 +430,30 @@ details: `
 <div class="navPages">
     <p>Want to see Another Product ?</p>
     <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
-    <p><a href="./brands.html">Click Here To shope By Brands</a></p>
+    <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
 </div>
 `
 },
+
+{
+  id: 22, name: "Gucci Specialized fit cat eye optical frame",
+  image: 'https://media.gucci.com/style/HEXF1E9FB_Center_0_0_800x800/1673653572/733583_J0740_2391_001_100_0000_Light-Specialized-fit-cat-eye-optical-frame.jpg',
+  price: 550,
+  details: `
+  <p>Price : 550$</p>
+  <p>
+    Product code: <span id="product-code">733573 J0740 23988</span>
+  </p>
+  <p>Color: Shiny dark tortoiseshell</p>
+  <p>Lens Shape: Angular</p>
+  <p>Lens Size (mm): 5.7</p>
+  <p>Frame Dimension (mm): height: 2,width: 5.5</p>
+  <div class="navPages">
+      <p>Want to see Another Product ?</p>
+      <p> <a href="./categories.html"> Click Here To Shope By Catigory</a> </p>
+      <p><a href="./index.html#brands">Click Here To shope By Brands</a></p>
+  </div>
+  `
+  },
 
 ];
